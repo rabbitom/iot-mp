@@ -24,6 +24,12 @@ Page({
     })
   },
   
-  onLoad: function () {
+  /**
+   * when user share the app
+   */
+  onShareAppMessage: function () {
+    return {
+      title: 'My First IoT Mini Program'
+    }
   }
 })
