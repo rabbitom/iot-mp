@@ -1,21 +1,20 @@
 /**index.wxss**/
-.userinfo {
+.iot-main-title {
+  font-size: 30px;
+}
+
+.iot-main-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.iot-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.iot-main-btn {
+  width: 50%;
 }

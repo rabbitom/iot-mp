@@ -1,13 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <view class="iot-container">
+    <text class="iot-main-title">My IoT</text>
+    <text class="iot-main-text">This mini program connect to smart hardware via bluetooth. Please make bluetooth on your phone is enabled before start.</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <button class="iot-main-btn" bindtap="onTapStart">Start</button>
 </view>
