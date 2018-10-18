@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="container">
   <view class="iot-container">
-    <text class="iot-main-title">My IoT</text>
-    <text class="iot-main-text">This mini program connect to smart hardware via bluetooth. Please make bluetooth on your phone is enabled before start.</text>
+    <text class="iot-large-text">My IoT</text>
+    <text class="iot-main-text">This mini program connect to smart hardware via bluetooth. Please enable bluetooth on your phone before start.</text>
   </view>
   <button class="iot-main-btn" bindtap="onTapStart">Start</button>
 </view>
