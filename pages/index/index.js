@@ -9,7 +9,9 @@ Page({
   onTapStart: function() {
     wx.openBluetoothAdapter({
       success: function(res) {
-        console.log("open bt adapter success");
+        wx.navigateTo({
+          url: '/pages/devices/devices',
+        })
       },
       fail: function(res) {
         console.log(res.errMsg);

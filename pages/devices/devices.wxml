@@ -1,0 +1,12 @@
+<!--pages/devices/devices.wxml-->
+<progress percent="{{scanProgress}}"></progress>
+<scroll-view class="iot-main-list" scroll-y>
+  <view class="iot-device-item" wx:for="{{devices}}">
+    <view class="iot-device-info">
+      <text>{{item.name}}</text>
+      <text>{{item.RSSI}}</text>
+    </view>
+    <text>{{item.deviceId}}</text>
+  </view>
+</scroll-view>
+<button class="iot-main-btn" bindtap="onTapScan" disabled="{{isScanning}}">Scan</button>

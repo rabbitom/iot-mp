@@ -1,0 +1,32 @@
+/* pages/devices/devices.wxss */
+.iot-main-list {
+  position: absolute;
+  left: 0rpx;
+  right: 0rpx;
+  top: 20rpx;
+  bottom: 200rpx;
+}
+
+.container {
+  padding: 40rpx;
+}
+
+.iot-device-item {
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-right: 20rpx;
+  margin-left: 40rpx;
+  border-bottom: 1px solid lightgray;
+}
+
+.iot-device-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iot-main-btn {
+  position: absolute;
+  left: 25%;
+  bottom: 40rpx;
+}
