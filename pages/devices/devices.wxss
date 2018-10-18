@@ -30,3 +30,7 @@
   left: 25%;
   bottom: 40rpx;
 }
+
+.iot-device-item-hover {
+  background: lightgray;
+}

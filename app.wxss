@@ -16,3 +16,13 @@ page {
 .iot-main-btn {
   width: 50%;
 }
+
+.iot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iot-large-text {
+  font-size: 30px;
+}

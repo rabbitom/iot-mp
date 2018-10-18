@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/devices/devices"
+    "pages/devices/devices",
+    "pages/sensortag/sensortag"
   ],
   "window": {
     "backgroundTextStyle": "light",

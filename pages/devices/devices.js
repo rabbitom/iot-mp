@@ -62,6 +62,13 @@ Page({
     })
   },
 
+  onTapDeviceItem(e) {
+    console.log(e);
+    wx.navigateTo({
+      url: '/pages/sensortag/sensortag?deviceId=' + e.currentTarget.dataset.deviceId,
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,9 @@
+<!--pages/sensortag/sensortag.wxml-->
+<view class="container">
+  <view class="iot-container">
+    <text>Luminance</text>
+    <text class="iot-large-text">{{luminance}} lux</text>
+  </view>
+  <!-- <button>Beep</button> -->
+  <button bindtap="onTapDisconnect">Disconnect</button>
+</view>

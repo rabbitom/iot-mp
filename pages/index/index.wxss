@@ -1,16 +1,6 @@
 /**index.wxss**/
-.iot-main-title {
-  font-size: 30px;
-}
-
 .iot-main-text {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
-}
-
-.iot-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }

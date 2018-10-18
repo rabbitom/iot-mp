@@ -36,12 +36,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "devices",
-					"pathName": "pages/devices/devices"
+					"pathName": "pages/devices/devices",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "sensortag",
+					"pathName": "pages/sensortag/sensortag"
 				}
 			]
 		}
