@@ -1,7 +1,7 @@
 // pages/sensortag/sensortag.js
-const luminanceService = 'f000aa70-0451-4000-b000-000000000000';
-const luminanceConfig = 'f000aa72-0451-4000-b000-000000000000';
-const luminanceData = 'f000aa71-0451-4000-b000-000000000000';
+const luminanceService = 'F000AA70-0451-4000-B000-000000000000';
+const luminanceConfig = 'F000AA72-0451-4000-B000-000000000000';
+const luminanceData = 'F000AA71-0451-4000-B000-000000000000';
 const startCommand = new Uint8Array([1]);
 
 var deviceId;
